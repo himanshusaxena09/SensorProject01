@@ -1,0 +1,3 @@
+[2025-08-02 16:18:34,195] 97 werkzeug - WARNING -  * Debugger is active!
+[2025-08-02 16:18:34,200] 97 werkzeug - INFO -  * Debugger PIN: 211-603-832
+[2025-08-02 16:19:10,103] 97 werkzeug - INFO -  * Detected change in 'D:\\DS_Himanshu_Files\\DATA SCIENCE\\Jupyter_Notebook\\SENSOR PROJECT\\src\\components\\data_ingestion.py', reloading

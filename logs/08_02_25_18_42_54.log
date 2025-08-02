@@ -1,0 +1,426 @@
+[2025-08-02 18:42:57,423] 224 werkzeug - WARNING -  * Debugger is active!
+[2025-08-02 18:42:57,429] 224 werkzeug - INFO -  * Debugger PIN: 129-964-374
+[2025-08-02 18:46:52,209] 20 root - INFO - >>> /train endpoint called
+[2025-08-02 18:46:52,211] 66 root - INFO - Entered initiate_data_ingestion method of DataIngestion class
+[2025-08-02 18:46:52,211] 45 root - INFO - Exporting data from MongoDB
+[2025-08-02 18:47:01,084] 55 root - INFO - Saving exported data to feature store path: artifacts
+[2025-08-02 18:47:01,377] 70 root - INFO - Data fetched and saved from MongoDB
+[2025-08-02 18:47:01,377] 72 root - INFO - Exiting initiate_data_ingestion method of DataIngestion class
+[2025-08-02 18:47:01,378] 67 root - INFO - Entered initiate data transformation method of data transfomration class
+[2025-08-02 18:47:01,775] 49 root - INFO - Entered the save_object method of MainUtils class
+[2025-08-02 18:47:01,865] 57 root - INFO - Exited the save_object method of MainUtils class
+[2025-08-02 18:47:01,867] 190 root - INFO - Splitting training and testing input and target feature
+[2025-08-02 18:47:01,867] 204 root - INFO - Extracting model config file path
+[2025-08-02 18:47:01,867] 216 root - INFO - Extracting model config file path
+[2025-08-02 18:47:13,127] 224 werkzeug - INFO -  * Detected change in 'C:\\Users\\haima\\anaconda3\\Lib\\site-packages\\sklearn\\utils\\fixes.py', reloading
+[2025-08-02 18:47:13,135] 224 werkzeug - INFO -  * Detected change in 'C:\\Users\\haima\\anaconda3\\Lib\\site-packages\\sklearn\\utils\\_array_api.py', reloading
+[2025-08-02 18:47:13,140] 224 werkzeug - INFO -  * Detected change in 'C:\\Users\\haima\\anaconda3\\Lib\\site-packages\\sklearn\\utils\\validation.py', reloading
+[2025-08-02 18:47:13,142] 224 werkzeug - INFO -  * Detected change in 'C:\\Users\\haima\\anaconda3\\Lib\\site-packages\\sklearn\\utils\\_param_validation.py', reloading
+[2025-08-02 18:47:13,144] 224 werkzeug - INFO -  * Detected change in 'C:\\Users\\haima\\anaconda3\\Lib\\site-packages\\sklearn\\utils\\_chunking.py', reloading
+[2025-08-02 18:47:13,151] 224 werkzeug - INFO -  * Detected change in 'C:\\Users\\haima\\anaconda3\\Lib\\site-packages\\sklearn\\utils\\__init__.py', reloading
+[2025-08-02 18:47:13,157] 224 werkzeug - INFO -  * Detected change in 'C:\\Users\\haima\\anaconda3\\Lib\\site-packages\\sklearn\\base.py', reloading
+[2025-08-02 18:47:13,159] 224 werkzeug - INFO -  * Detected change in 'C:\\Users\\haima\\anaconda3\\Lib\\site-packages\\sklearn\\__init__.py', reloading
+[2025-08-02 18:47:13,160] 224 werkzeug - INFO -  * Detected change in 'C:\\Users\\haima\\anaconda3\\Lib\\multiprocessing\\queues.py', reloading
+[2025-08-02 18:47:13,169] 224 werkzeug - INFO -  * Detected change in 'C:\\Users\\haima\\anaconda3\\Lib\\site-packages\\joblib\\externals\\loky\\process_executor.py', reloading
+[2025-08-02 18:47:13,173] 224 werkzeug - INFO -  * Detected change in 'C:\\Users\\haima\\anaconda3\\Lib\\multiprocessing\\process.py', reloading
+[2025-08-02 18:47:13,175] 224 werkzeug - INFO -  * Detected change in 'C:\\Users\\haima\\anaconda3\\Lib\\site-packages\\joblib\\externals\\loky\\backend\\popen_loky_win32.py', reloading
+[2025-08-02 18:47:16,732] 28 concurrent.futures - ERROR - exception calling callback for <Future at 0x15629179350 state=finished returned list>
+Traceback (most recent call last):
+  File "C:\Users\haima\anaconda3\Lib\site-packages\joblib\externals\loky\_base.py", line 26, in _invoke_callbacks
+    callback(self)
+  File "C:\Users\haima\anaconda3\Lib\site-packages\joblib\parallel.py", line 828, in __call__
+    self._dispatch_new()
+  File "C:\Users\haima\anaconda3\Lib\site-packages\joblib\parallel.py", line 843, in _dispatch_new
+    self.parallel.dispatch_next()
+  File "C:\Users\haima\anaconda3\Lib\site-packages\joblib\parallel.py", line 1429, in dispatch_next
+    if not self.dispatch_one_batch(self._original_iterator):
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\haima\anaconda3\Lib\site-packages\joblib\parallel.py", line 1517, in dispatch_one_batch
+    self._dispatch(tasks)
+  File "C:\Users\haima\anaconda3\Lib\site-packages\joblib\parallel.py", line 1418, in _dispatch
+    job = self._backend.apply_async(batch, callback=batch_tracker)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\haima\anaconda3\Lib\site-packages\joblib\_parallel_backends.py", line 588, in apply_async
+    future = self._workers.submit(func)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\haima\anaconda3\Lib\site-packages\joblib\externals\loky\reusable_executor.py", line 225, in submit
+    return super().submit(fn, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\haima\anaconda3\Lib\site-packages\joblib\externals\loky\process_executor.py", line 1228, in submit
+    raise ShutdownExecutorError(
+joblib.externals.loky.process_executor.ShutdownExecutorError: cannot schedule new futures after shutdown
+[2025-08-02 18:47:16,903] 28 concurrent.futures - ERROR - exception calling callback for <Future at 0x156291c2fd0 state=finished returned list>
+Traceback (most recent call last):
+  File "C:\Users\haima\anaconda3\Lib\site-packages\joblib\externals\loky\_base.py", line 26, in _invoke_callbacks
+    callback(self)
+  File "C:\Users\haima\anaconda3\Lib\site-packages\joblib\parallel.py", line 828, in __call__
+    self._dispatch_new()
+  File "C:\Users\haima\anaconda3\Lib\site-packages\joblib\parallel.py", line 843, in _dispatch_new
+    self.parallel.dispatch_next()
+  File "C:\Users\haima\anaconda3\Lib\site-packages\joblib\parallel.py", line 1429, in dispatch_next
+    if not self.dispatch_one_batch(self._original_iterator):
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\haima\anaconda3\Lib\site-packages\joblib\parallel.py", line 1517, in dispatch_one_batch
+    self._dispatch(tasks)
+  File "C:\Users\haima\anaconda3\Lib\site-packages\joblib\parallel.py", line 1418, in _dispatch
+    job = self._backend.apply_async(batch, callback=batch_tracker)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\haima\anaconda3\Lib\site-packages\joblib\_parallel_backends.py", line 588, in apply_async
+    future = self._workers.submit(func)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\haima\anaconda3\Lib\site-packages\joblib\externals\loky\reusable_executor.py", line 225, in submit
+    return super().submit(fn, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\haima\anaconda3\Lib\site-packages\joblib\externals\loky\process_executor.py", line 1228, in submit
+    raise ShutdownExecutorError(
+joblib.externals.loky.process_executor.ShutdownExecutorError: cannot schedule new futures after shutdown
+[2025-08-02 18:47:16,991] 28 concurrent.futures - ERROR - exception calling callback for <Future at 0x156291c2290 state=finished returned list>
+Traceback (most recent call last):
+  File "C:\Users\haima\anaconda3\Lib\site-packages\joblib\externals\loky\_base.py", line 26, in _invoke_callbacks
+    callback(self)
+  File "C:\Users\haima\anaconda3\Lib\site-packages\joblib\parallel.py", line 828, in __call__
+    self._dispatch_new()
+  File "C:\Users\haima\anaconda3\Lib\site-packages\joblib\parallel.py", line 843, in _dispatch_new
+    self.parallel.dispatch_next()
+  File "C:\Users\haima\anaconda3\Lib\site-packages\joblib\parallel.py", line 1429, in dispatch_next
+    if not self.dispatch_one_batch(self._original_iterator):
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\haima\anaconda3\Lib\site-packages\joblib\parallel.py", line 1517, in dispatch_one_batch
+    self._dispatch(tasks)
+  File "C:\Users\haima\anaconda3\Lib\site-packages\joblib\parallel.py", line 1418, in _dispatch
+    job = self._backend.apply_async(batch, callback=batch_tracker)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\haima\anaconda3\Lib\site-packages\joblib\_parallel_backends.py", line 588, in apply_async
+    future = self._workers.submit(func)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\haima\anaconda3\Lib\site-packages\joblib\externals\loky\reusable_executor.py", line 225, in submit
+    return super().submit(fn, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\haima\anaconda3\Lib\site-packages\joblib\externals\loky\process_executor.py", line 1228, in submit
+    raise ShutdownExecutorError(
+joblib.externals.loky.process_executor.ShutdownExecutorError: cannot schedule new futures after shutdown
+[2025-08-02 18:47:17,031] 28 concurrent.futures - ERROR - exception calling callback for <Future at 0x156291c1d90 state=finished returned list>
+Traceback (most recent call last):
+  File "C:\Users\haima\anaconda3\Lib\site-packages\joblib\externals\loky\_base.py", line 26, in _invoke_callbacks
+    callback(self)
+  File "C:\Users\haima\anaconda3\Lib\site-packages\joblib\parallel.py", line 828, in __call__
+    self._dispatch_new()
+  File "C:\Users\haima\anaconda3\Lib\site-packages\joblib\parallel.py", line 843, in _dispatch_new
+    self.parallel.dispatch_next()
+  File "C:\Users\haima\anaconda3\Lib\site-packages\joblib\parallel.py", line 1429, in dispatch_next
+    if not self.dispatch_one_batch(self._original_iterator):
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\haima\anaconda3\Lib\site-packages\joblib\parallel.py", line 1517, in dispatch_one_batch
+    self._dispatch(tasks)
+  File "C:\Users\haima\anaconda3\Lib\site-packages\joblib\parallel.py", line 1418, in _dispatch
+    job = self._backend.apply_async(batch, callback=batch_tracker)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\haima\anaconda3\Lib\site-packages\joblib\_parallel_backends.py", line 588, in apply_async
+    future = self._workers.submit(func)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\haima\anaconda3\Lib\site-packages\joblib\externals\loky\reusable_executor.py", line 225, in submit
+    return super().submit(fn, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\haima\anaconda3\Lib\site-packages\joblib\externals\loky\process_executor.py", line 1228, in submit
+    raise ShutdownExecutorError(
+joblib.externals.loky.process_executor.ShutdownExecutorError: cannot schedule new futures after shutdown
+[2025-08-02 18:47:17,154] 28 concurrent.futures - ERROR - exception calling callback for <Future at 0x15629179a10 state=finished returned list>
+Traceback (most recent call last):
+  File "C:\Users\haima\anaconda3\Lib\site-packages\joblib\externals\loky\_base.py", line 26, in _invoke_callbacks
+    callback(self)
+  File "C:\Users\haima\anaconda3\Lib\site-packages\joblib\parallel.py", line 828, in __call__
+    self._dispatch_new()
+  File "C:\Users\haima\anaconda3\Lib\site-packages\joblib\parallel.py", line 843, in _dispatch_new
+    self.parallel.dispatch_next()
+  File "C:\Users\haima\anaconda3\Lib\site-packages\joblib\parallel.py", line 1429, in dispatch_next
+    if not self.dispatch_one_batch(self._original_iterator):
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\haima\anaconda3\Lib\site-packages\joblib\parallel.py", line 1517, in dispatch_one_batch
+    self._dispatch(tasks)
+  File "C:\Users\haima\anaconda3\Lib\site-packages\joblib\parallel.py", line 1418, in _dispatch
+    job = self._backend.apply_async(batch, callback=batch_tracker)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\haima\anaconda3\Lib\site-packages\joblib\_parallel_backends.py", line 588, in apply_async
+    future = self._workers.submit(func)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\haima\anaconda3\Lib\site-packages\joblib\externals\loky\reusable_executor.py", line 225, in submit
+    return super().submit(fn, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\haima\anaconda3\Lib\site-packages\joblib\externals\loky\process_executor.py", line 1228, in submit
+    raise ShutdownExecutorError(
+joblib.externals.loky.process_executor.ShutdownExecutorError: cannot schedule new futures after shutdown
+[2025-08-02 18:47:17,366] 28 concurrent.futures - ERROR - exception calling callback for <Future at 0x156291c2010 state=finished returned list>
+Traceback (most recent call last):
+  File "C:\Users\haima\anaconda3\Lib\site-packages\joblib\externals\loky\_base.py", line 26, in _invoke_callbacks
+    callback(self)
+  File "C:\Users\haima\anaconda3\Lib\site-packages\joblib\parallel.py", line 828, in __call__
+    self._dispatch_new()
+  File "C:\Users\haima\anaconda3\Lib\site-packages\joblib\parallel.py", line 843, in _dispatch_new
+    self.parallel.dispatch_next()
+  File "C:\Users\haima\anaconda3\Lib\site-packages\joblib\parallel.py", line 1429, in dispatch_next
+    if not self.dispatch_one_batch(self._original_iterator):
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\haima\anaconda3\Lib\site-packages\joblib\parallel.py", line 1517, in dispatch_one_batch
+    self._dispatch(tasks)
+  File "C:\Users\haima\anaconda3\Lib\site-packages\joblib\parallel.py", line 1418, in _dispatch
+    job = self._backend.apply_async(batch, callback=batch_tracker)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\haima\anaconda3\Lib\site-packages\joblib\_parallel_backends.py", line 588, in apply_async
+    future = self._workers.submit(func)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\haima\anaconda3\Lib\site-packages\joblib\externals\loky\reusable_executor.py", line 225, in submit
+    return super().submit(fn, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\haima\anaconda3\Lib\site-packages\joblib\externals\loky\process_executor.py", line 1228, in submit
+    raise ShutdownExecutorError(
+joblib.externals.loky.process_executor.ShutdownExecutorError: cannot schedule new futures after shutdown
+[2025-08-02 18:47:17,610] 28 concurrent.futures - ERROR - exception calling callback for <Future at 0x156291cdb10 state=finished returned list>
+Traceback (most recent call last):
+  File "C:\Users\haima\anaconda3\Lib\site-packages\joblib\externals\loky\_base.py", line 26, in _invoke_callbacks
+    callback(self)
+  File "C:\Users\haima\anaconda3\Lib\site-packages\joblib\parallel.py", line 828, in __call__
+    self._dispatch_new()
+  File "C:\Users\haima\anaconda3\Lib\site-packages\joblib\parallel.py", line 843, in _dispatch_new
+    self.parallel.dispatch_next()
+  File "C:\Users\haima\anaconda3\Lib\site-packages\joblib\parallel.py", line 1429, in dispatch_next
+    if not self.dispatch_one_batch(self._original_iterator):
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\haima\anaconda3\Lib\site-packages\joblib\parallel.py", line 1517, in dispatch_one_batch
+    self._dispatch(tasks)
+  File "C:\Users\haima\anaconda3\Lib\site-packages\joblib\parallel.py", line 1418, in _dispatch
+    job = self._backend.apply_async(batch, callback=batch_tracker)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\haima\anaconda3\Lib\site-packages\joblib\_parallel_backends.py", line 588, in apply_async
+    future = self._workers.submit(func)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\haima\anaconda3\Lib\site-packages\joblib\externals\loky\reusable_executor.py", line 225, in submit
+    return super().submit(fn, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\haima\anaconda3\Lib\site-packages\joblib\externals\loky\process_executor.py", line 1228, in submit
+    raise ShutdownExecutorError(
+joblib.externals.loky.process_executor.ShutdownExecutorError: cannot schedule new futures after shutdown
+[2025-08-02 18:47:17,653] 28 concurrent.futures - ERROR - exception calling callback for <Future at 0x156291c1c50 state=finished returned list>
+Traceback (most recent call last):
+  File "C:\Users\haima\anaconda3\Lib\site-packages\joblib\externals\loky\_base.py", line 26, in _invoke_callbacks
+    callback(self)
+  File "C:\Users\haima\anaconda3\Lib\site-packages\joblib\parallel.py", line 828, in __call__
+    self._dispatch_new()
+  File "C:\Users\haima\anaconda3\Lib\site-packages\joblib\parallel.py", line 843, in _dispatch_new
+    self.parallel.dispatch_next()
+  File "C:\Users\haima\anaconda3\Lib\site-packages\joblib\parallel.py", line 1429, in dispatch_next
+    if not self.dispatch_one_batch(self._original_iterator):
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\haima\anaconda3\Lib\site-packages\joblib\parallel.py", line 1517, in dispatch_one_batch
+    self._dispatch(tasks)
+  File "C:\Users\haima\anaconda3\Lib\site-packages\joblib\parallel.py", line 1418, in _dispatch
+    job = self._backend.apply_async(batch, callback=batch_tracker)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\haima\anaconda3\Lib\site-packages\joblib\_parallel_backends.py", line 588, in apply_async
+    future = self._workers.submit(func)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\haima\anaconda3\Lib\site-packages\joblib\externals\loky\reusable_executor.py", line 225, in submit
+    return super().submit(fn, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\haima\anaconda3\Lib\site-packages\joblib\externals\loky\process_executor.py", line 1228, in submit
+    raise ShutdownExecutorError(
+joblib.externals.loky.process_executor.ShutdownExecutorError: cannot schedule new futures after shutdown
+[2025-08-02 18:47:17,711] 28 concurrent.futures - ERROR - exception calling callback for <Future at 0x156291c2150 state=finished returned list>
+Traceback (most recent call last):
+  File "C:\Users\haima\anaconda3\Lib\site-packages\joblib\externals\loky\_base.py", line 26, in _invoke_callbacks
+    callback(self)
+  File "C:\Users\haima\anaconda3\Lib\site-packages\joblib\parallel.py", line 828, in __call__
+    self._dispatch_new()
+  File "C:\Users\haima\anaconda3\Lib\site-packages\joblib\parallel.py", line 843, in _dispatch_new
+    self.parallel.dispatch_next()
+  File "C:\Users\haima\anaconda3\Lib\site-packages\joblib\parallel.py", line 1429, in dispatch_next
+    if not self.dispatch_one_batch(self._original_iterator):
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\haima\anaconda3\Lib\site-packages\joblib\parallel.py", line 1517, in dispatch_one_batch
+    self._dispatch(tasks)
+  File "C:\Users\haima\anaconda3\Lib\site-packages\joblib\parallel.py", line 1418, in _dispatch
+    job = self._backend.apply_async(batch, callback=batch_tracker)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\haima\anaconda3\Lib\site-packages\joblib\_parallel_backends.py", line 588, in apply_async
+    future = self._workers.submit(func)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\haima\anaconda3\Lib\site-packages\joblib\externals\loky\reusable_executor.py", line 225, in submit
+    return super().submit(fn, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\haima\anaconda3\Lib\site-packages\joblib\externals\loky\process_executor.py", line 1228, in submit
+    raise ShutdownExecutorError(
+joblib.externals.loky.process_executor.ShutdownExecutorError: cannot schedule new futures after shutdown
+[2025-08-02 18:47:17,889] 28 concurrent.futures - ERROR - exception calling callback for <Future at 0x156291cd990 state=finished returned list>
+Traceback (most recent call last):
+  File "C:\Users\haima\anaconda3\Lib\site-packages\joblib\externals\loky\_base.py", line 26, in _invoke_callbacks
+    callback(self)
+  File "C:\Users\haima\anaconda3\Lib\site-packages\joblib\parallel.py", line 828, in __call__
+    self._dispatch_new()
+  File "C:\Users\haima\anaconda3\Lib\site-packages\joblib\parallel.py", line 843, in _dispatch_new
+    self.parallel.dispatch_next()
+  File "C:\Users\haima\anaconda3\Lib\site-packages\joblib\parallel.py", line 1429, in dispatch_next
+    if not self.dispatch_one_batch(self._original_iterator):
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\haima\anaconda3\Lib\site-packages\joblib\parallel.py", line 1517, in dispatch_one_batch
+    self._dispatch(tasks)
+  File "C:\Users\haima\anaconda3\Lib\site-packages\joblib\parallel.py", line 1418, in _dispatch
+    job = self._backend.apply_async(batch, callback=batch_tracker)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\haima\anaconda3\Lib\site-packages\joblib\_parallel_backends.py", line 588, in apply_async
+    future = self._workers.submit(func)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\haima\anaconda3\Lib\site-packages\joblib\externals\loky\reusable_executor.py", line 225, in submit
+    return super().submit(fn, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\haima\anaconda3\Lib\site-packages\joblib\externals\loky\process_executor.py", line 1228, in submit
+    raise ShutdownExecutorError(
+joblib.externals.loky.process_executor.ShutdownExecutorError: cannot schedule new futures after shutdown
+[2025-08-02 18:47:17,928] 28 concurrent.futures - ERROR - exception calling callback for <Future at 0x156291cd7d0 state=finished returned list>
+Traceback (most recent call last):
+  File "C:\Users\haima\anaconda3\Lib\site-packages\joblib\externals\loky\_base.py", line 26, in _invoke_callbacks
+    callback(self)
+  File "C:\Users\haima\anaconda3\Lib\site-packages\joblib\parallel.py", line 828, in __call__
+    self._dispatch_new()
+  File "C:\Users\haima\anaconda3\Lib\site-packages\joblib\parallel.py", line 843, in _dispatch_new
+    self.parallel.dispatch_next()
+  File "C:\Users\haima\anaconda3\Lib\site-packages\joblib\parallel.py", line 1429, in dispatch_next
+    if not self.dispatch_one_batch(self._original_iterator):
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\haima\anaconda3\Lib\site-packages\joblib\parallel.py", line 1517, in dispatch_one_batch
+    self._dispatch(tasks)
+  File "C:\Users\haima\anaconda3\Lib\site-packages\joblib\parallel.py", line 1418, in _dispatch
+    job = self._backend.apply_async(batch, callback=batch_tracker)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\haima\anaconda3\Lib\site-packages\joblib\_parallel_backends.py", line 588, in apply_async
+    future = self._workers.submit(func)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\haima\anaconda3\Lib\site-packages\joblib\externals\loky\reusable_executor.py", line 225, in submit
+    return super().submit(fn, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\haima\anaconda3\Lib\site-packages\joblib\externals\loky\process_executor.py", line 1228, in submit
+    raise ShutdownExecutorError(
+joblib.externals.loky.process_executor.ShutdownExecutorError: cannot schedule new futures after shutdown
+[2025-08-02 18:47:17,936] 28 concurrent.futures - ERROR - exception calling callback for <Future at 0x156291c1ed0 state=finished returned list>
+Traceback (most recent call last):
+  File "C:\Users\haima\anaconda3\Lib\site-packages\joblib\externals\loky\_base.py", line 26, in _invoke_callbacks
+    callback(self)
+  File "C:\Users\haima\anaconda3\Lib\site-packages\joblib\parallel.py", line 828, in __call__
+    self._dispatch_new()
+  File "C:\Users\haima\anaconda3\Lib\site-packages\joblib\parallel.py", line 843, in _dispatch_new
+    self.parallel.dispatch_next()
+  File "C:\Users\haima\anaconda3\Lib\site-packages\joblib\parallel.py", line 1429, in dispatch_next
+    if not self.dispatch_one_batch(self._original_iterator):
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\haima\anaconda3\Lib\site-packages\joblib\parallel.py", line 1517, in dispatch_one_batch
+    self._dispatch(tasks)
+  File "C:\Users\haima\anaconda3\Lib\site-packages\joblib\parallel.py", line 1418, in _dispatch
+    job = self._backend.apply_async(batch, callback=batch_tracker)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\haima\anaconda3\Lib\site-packages\joblib\_parallel_backends.py", line 588, in apply_async
+    future = self._workers.submit(func)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\haima\anaconda3\Lib\site-packages\joblib\externals\loky\reusable_executor.py", line 225, in submit
+    return super().submit(fn, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\haima\anaconda3\Lib\site-packages\joblib\externals\loky\process_executor.py", line 1228, in submit
+    raise ShutdownExecutorError(
+joblib.externals.loky.process_executor.ShutdownExecutorError: cannot schedule new futures after shutdown
+[2025-08-02 18:47:18,065] 28 concurrent.futures - ERROR - exception calling callback for <Future at 0x156291cd2d0 state=finished returned list>
+Traceback (most recent call last):
+  File "C:\Users\haima\anaconda3\Lib\site-packages\joblib\externals\loky\_base.py", line 26, in _invoke_callbacks
+    callback(self)
+  File "C:\Users\haima\anaconda3\Lib\site-packages\joblib\parallel.py", line 828, in __call__
+    self._dispatch_new()
+  File "C:\Users\haima\anaconda3\Lib\site-packages\joblib\parallel.py", line 843, in _dispatch_new
+    self.parallel.dispatch_next()
+  File "C:\Users\haima\anaconda3\Lib\site-packages\joblib\parallel.py", line 1429, in dispatch_next
+    if not self.dispatch_one_batch(self._original_iterator):
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\haima\anaconda3\Lib\site-packages\joblib\parallel.py", line 1517, in dispatch_one_batch
+    self._dispatch(tasks)
+  File "C:\Users\haima\anaconda3\Lib\site-packages\joblib\parallel.py", line 1418, in _dispatch
+    job = self._backend.apply_async(batch, callback=batch_tracker)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\haima\anaconda3\Lib\site-packages\joblib\_parallel_backends.py", line 588, in apply_async
+    future = self._workers.submit(func)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\haima\anaconda3\Lib\site-packages\joblib\externals\loky\reusable_executor.py", line 225, in submit
+    return super().submit(fn, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\haima\anaconda3\Lib\site-packages\joblib\externals\loky\process_executor.py", line 1228, in submit
+    raise ShutdownExecutorError(
+joblib.externals.loky.process_executor.ShutdownExecutorError: cannot schedule new futures after shutdown
+[2025-08-02 18:47:18,089] 28 concurrent.futures - ERROR - exception calling callback for <Future at 0x156291cd550 state=finished returned list>
+Traceback (most recent call last):
+  File "C:\Users\haima\anaconda3\Lib\site-packages\joblib\externals\loky\_base.py", line 26, in _invoke_callbacks
+    callback(self)
+  File "C:\Users\haima\anaconda3\Lib\site-packages\joblib\parallel.py", line 828, in __call__
+    self._dispatch_new()
+  File "C:\Users\haima\anaconda3\Lib\site-packages\joblib\parallel.py", line 843, in _dispatch_new
+    self.parallel.dispatch_next()
+  File "C:\Users\haima\anaconda3\Lib\site-packages\joblib\parallel.py", line 1429, in dispatch_next
+    if not self.dispatch_one_batch(self._original_iterator):
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\haima\anaconda3\Lib\site-packages\joblib\parallel.py", line 1517, in dispatch_one_batch
+    self._dispatch(tasks)
+  File "C:\Users\haima\anaconda3\Lib\site-packages\joblib\parallel.py", line 1418, in _dispatch
+    job = self._backend.apply_async(batch, callback=batch_tracker)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\haima\anaconda3\Lib\site-packages\joblib\_parallel_backends.py", line 588, in apply_async
+    future = self._workers.submit(func)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\haima\anaconda3\Lib\site-packages\joblib\externals\loky\reusable_executor.py", line 225, in submit
+    return super().submit(fn, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\haima\anaconda3\Lib\site-packages\joblib\externals\loky\process_executor.py", line 1228, in submit
+    raise ShutdownExecutorError(
+joblib.externals.loky.process_executor.ShutdownExecutorError: cannot schedule new futures after shutdown
+[2025-08-02 18:47:18,090] 28 concurrent.futures - ERROR - exception calling callback for <Future at 0x156291cd690 state=finished returned list>
+Traceback (most recent call last):
+  File "C:\Users\haima\anaconda3\Lib\site-packages\joblib\externals\loky\_base.py", line 26, in _invoke_callbacks
+    callback(self)
+  File "C:\Users\haima\anaconda3\Lib\site-packages\joblib\parallel.py", line 828, in __call__
+    self._dispatch_new()
+  File "C:\Users\haima\anaconda3\Lib\site-packages\joblib\parallel.py", line 843, in _dispatch_new
+    self.parallel.dispatch_next()
+  File "C:\Users\haima\anaconda3\Lib\site-packages\joblib\parallel.py", line 1429, in dispatch_next
+    if not self.dispatch_one_batch(self._original_iterator):
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\haima\anaconda3\Lib\site-packages\joblib\parallel.py", line 1517, in dispatch_one_batch
+    self._dispatch(tasks)
+  File "C:\Users\haima\anaconda3\Lib\site-packages\joblib\parallel.py", line 1418, in _dispatch
+    job = self._backend.apply_async(batch, callback=batch_tracker)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\haima\anaconda3\Lib\site-packages\joblib\_parallel_backends.py", line 588, in apply_async
+    future = self._workers.submit(func)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\haima\anaconda3\Lib\site-packages\joblib\externals\loky\reusable_executor.py", line 225, in submit
+    return super().submit(fn, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\haima\anaconda3\Lib\site-packages\joblib\externals\loky\process_executor.py", line 1228, in submit
+    raise ShutdownExecutorError(
+joblib.externals.loky.process_executor.ShutdownExecutorError: cannot schedule new futures after shutdown
+[2025-08-02 18:47:18,194] 28 concurrent.futures - ERROR - exception calling callback for <Future at 0x156291cd410 state=finished returned list>
+Traceback (most recent call last):
+  File "C:\Users\haima\anaconda3\Lib\site-packages\joblib\externals\loky\_base.py", line 26, in _invoke_callbacks
+    callback(self)
+  File "C:\Users\haima\anaconda3\Lib\site-packages\joblib\parallel.py", line 828, in __call__
+    self._dispatch_new()
+  File "C:\Users\haima\anaconda3\Lib\site-packages\joblib\parallel.py", line 843, in _dispatch_new
+    self.parallel.dispatch_next()
+  File "C:\Users\haima\anaconda3\Lib\site-packages\joblib\parallel.py", line 1429, in dispatch_next
+    if not self.dispatch_one_batch(self._original_iterator):
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\haima\anaconda3\Lib\site-packages\joblib\parallel.py", line 1517, in dispatch_one_batch
+    self._dispatch(tasks)
+  File "C:\Users\haima\anaconda3\Lib\site-packages\joblib\parallel.py", line 1418, in _dispatch
+    job = self._backend.apply_async(batch, callback=batch_tracker)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\haima\anaconda3\Lib\site-packages\joblib\_parallel_backends.py", line 588, in apply_async
+    future = self._workers.submit(func)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\haima\anaconda3\Lib\site-packages\joblib\externals\loky\reusable_executor.py", line 225, in submit
+    return super().submit(fn, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\haima\anaconda3\Lib\site-packages\joblib\externals\loky\process_executor.py", line 1228, in submit
+    raise ShutdownExecutorError(
+joblib.externals.loky.process_executor.ShutdownExecutorError: cannot schedule new futures after shutdown

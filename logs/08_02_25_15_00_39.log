@@ -1,0 +1,10 @@
+[2025-08-02 15:00:43,661] 97 werkzeug - WARNING -  * Debugger is active!
+[2025-08-02 15:00:43,668] 97 werkzeug - INFO -  * Debugger PIN: 211-603-832
+[2025-08-02 15:00:49,547] 59 root - INFO - entered initiate_data_ingestion method of data_ingestion class
+[2025-08-02 15:00:49,548] 41 root - INFO - exporting data from mongodb
+[2025-08-02 15:01:25,915] 97 werkzeug - INFO - 127.0.0.1 - - [02/Aug/2025 15:01:25] "[35m[1mGET /train HTTP/1.1[0m" 500 -
+[2025-08-02 15:01:26,377] 97 werkzeug - INFO - 127.0.0.1 - - [02/Aug/2025 15:01:26] "[36mGET /train?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+[2025-08-02 15:01:26,379] 97 werkzeug - INFO - 127.0.0.1 - - [02/Aug/2025 15:01:26] "[36mGET /train?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+[2025-08-02 15:01:27,966] 97 werkzeug - INFO - 127.0.0.1 - - [02/Aug/2025 15:01:27] "GET /train?__debugger__=yes&cmd=resource&f=console.png&s=4FUjKFpNGk4wM2MAOSAJ HTTP/1.1" 200 -
+[2025-08-02 15:01:28,354] 97 werkzeug - INFO - 127.0.0.1 - - [02/Aug/2025 15:01:28] "[36mGET /train?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+[2025-08-02 15:06:31,029] 97 werkzeug - INFO -  * Detected change in 'D:\\DS_Himanshu_Files\\DATA SCIENCE\\Jupyter_Notebook\\SENSOR PROJECT\\src\\components\\data_ingestion.py', reloading

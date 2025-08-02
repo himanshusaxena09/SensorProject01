@@ -1,0 +1,3 @@
+[2025-08-02 16:28:54,145] 224 werkzeug - WARNING -  * Debugger is active!
+[2025-08-02 16:28:54,150] 224 werkzeug - INFO -  * Debugger PIN: 129-964-374
+[2025-08-02 16:33:01,822] 224 werkzeug - INFO -  * Detected change in 'C:\\Users\\haima\\anaconda3\\Lib\\site-packages\\flask\\__init__.py', reloading

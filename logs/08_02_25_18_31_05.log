@@ -1,0 +1,15 @@
+[2025-08-02 18:31:09,410] 224 werkzeug - WARNING -  * Debugger is active!
+[2025-08-02 18:31:09,418] 224 werkzeug - INFO -  * Debugger PIN: 129-964-374
+[2025-08-02 18:31:11,163] 224 werkzeug - INFO -  * Detected change in 'C:\\Users\\haima\\anaconda3\\Lib\\site-packages\\certifi\\core.py', reloading
+[2025-08-02 18:31:11,163] 224 werkzeug - INFO -  * Detected change in 'C:\\Users\\haima\\anaconda3\\Lib\\site-packages\\certifi\\__init__.py', reloading
+[2025-08-02 18:31:11,163] 224 werkzeug - INFO -  * Detected change in 'C:\\Users\\haima\\anaconda3\\Lib\\site-packages\\certifi\\__main__.py', reloading
+[2025-08-02 18:31:11,165] 224 werkzeug - INFO -  * Detected change in 'C:\\Users\\haima\\anaconda3\\Lib\\site-packages\\certifi\\__init__.py', reloading
+[2025-08-02 18:31:11,323] 224 werkzeug - INFO -  * Detected change in 'C:\\Users\\haima\\anaconda3\\Lib\\site-packages\\certifi\\__init__.py', reloading
+[2025-08-02 18:31:11,324] 224 werkzeug - INFO -  * Detected change in 'C:\\Users\\haima\\anaconda3\\Lib\\site-packages\\certifi\\__init__.py', reloading
+[2025-08-02 18:31:11,324] 224 werkzeug - INFO -  * Detected change in 'C:\\Users\\haima\\anaconda3\\Lib\\site-packages\\certifi\\__main__.py', reloading
+[2025-08-02 18:31:11,325] 224 werkzeug - INFO -  * Detected change in 'C:\\Users\\haima\\anaconda3\\Lib\\site-packages\\certifi\\__main__.py', reloading
+[2025-08-02 18:31:11,325] 224 werkzeug - INFO -  * Detected change in 'C:\\Users\\haima\\anaconda3\\Lib\\site-packages\\certifi\\core.py', reloading
+[2025-08-02 18:31:11,326] 224 werkzeug - INFO -  * Detected change in 'C:\\Users\\haima\\anaconda3\\Lib\\site-packages\\certifi\\core.py', reloading
+[2025-08-02 18:31:11,333] 224 werkzeug - INFO -  * Detected change in 'C:\\Users\\haima\\anaconda3\\Lib\\site-packages\\~ertifi\\core.py', reloading
+[2025-08-02 18:31:11,333] 224 werkzeug - INFO -  * Detected change in 'C:\\Users\\haima\\anaconda3\\Lib\\site-packages\\~ertifi\\__init__.py', reloading
+[2025-08-02 18:31:11,334] 224 werkzeug - INFO -  * Detected change in 'C:\\Users\\haima\\anaconda3\\Lib\\site-packages\\~ertifi\\__main__.py', reloading

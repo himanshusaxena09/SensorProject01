@@ -6,7 +6,7 @@
   <title>File Upload UI</title>
 
   <!-- Link to External CSS -->
-  <link rel="stylesheet" href="styles.css" />
+  <link rel="stylesheet" href="/static/styles.css" />
 </head>
 
 <body>
@@ -16,12 +16,16 @@
         <h1>Upload a File</h1>
       </div>
 
-      <div class="dropzone">
-        <div class="upload-icon">📁</div>
-        <input class="upload-input" type="file" name="file" />
-      </div>
+      <!-- ✅ Wrap the form correctly -->
+      <form action="/predict" method="post" enctype="multipart/form-data">
+        <div class="dropzone">
+          <div class="upload-icon">📁</div>
+          <input class="upload-input" type="file" name="file" required />
+        </div>
 
-      <button class="btn">Submit</button>
+        <!-- ✅ This button submits the form -->
+        <button type="submit" class="btn">Upload</button>
+      </form>
     </div>
   </div>
 </body>

@@ -1,0 +1,9 @@
+[2025-08-02 18:47:26,858] 224 werkzeug - WARNING -  * Debugger is active!
+[2025-08-02 18:47:26,873] 224 werkzeug - INFO -  * Debugger PIN: 129-964-374
+[2025-08-02 18:47:26,915] 20 root - INFO - >>> /train endpoint called
+[2025-08-02 18:47:26,916] 66 root - INFO - Entered initiate_data_ingestion method of DataIngestion class
+[2025-08-02 18:47:26,916] 45 root - INFO - Exporting data from MongoDB
+[2025-08-02 18:47:27,189] 20 root - INFO - >>> /train endpoint called
+[2025-08-02 18:47:27,189] 66 root - INFO - Entered initiate_data_ingestion method of DataIngestion class
+[2025-08-02 18:47:27,189] 45 root - INFO - Exporting data from MongoDB
+[2025-08-02 18:47:27,790] 224 werkzeug - INFO -  * Detected change in 'C:\\Users\\haima\\anaconda3\\Lib\\site-packages\\flask\\app.py', reloading

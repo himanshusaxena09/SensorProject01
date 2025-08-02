@@ -1,0 +1,14 @@
+[2025-08-02 18:24:17,374] 224 werkzeug - WARNING -  * Debugger is active!
+[2025-08-02 18:24:17,382] 224 werkzeug - INFO -  * Debugger PIN: 129-964-374
+[2025-08-02 18:27:21,140] 224 werkzeug - INFO - 127.0.0.1 - - [02/Aug/2025 18:27:21] "GET / HTTP/1.1" 200 -
+[2025-08-02 18:27:32,968] 224 werkzeug - INFO - 127.0.0.1 - - [02/Aug/2025 18:27:32] "GET /predict HTTP/1.1" 200 -
+[2025-08-02 18:27:33,031] 224 werkzeug - INFO - 127.0.0.1 - - [02/Aug/2025 18:27:33] "[33mGET /styles.css HTTP/1.1[0m" 404 -
+[2025-08-02 18:28:11,611] 21 root - INFO - >>> /train endpoint called
+[2025-08-02 18:28:11,612] 69 root - INFO - Entered initiated_data_ingestion method of data_integration class
+[2025-08-02 18:28:11,612] 46 root - INFO - Exporting data from mongodb
+[2025-08-02 18:28:13,031] 224 werkzeug - INFO -  * Detected change in 'C:\\Users\\haima\\anaconda3\\Lib\\site-packages\\pymongo\\synchronous\\settings.py', reloading
+[2025-08-02 18:28:13,040] 224 werkzeug - INFO -  * Detected change in 'C:\\Users\\haima\\anaconda3\\Lib\\site-packages\\werkzeug\\debug\\__init__.py', reloading
+[2025-08-02 18:28:13,043] 224 werkzeug - INFO -  * Detected change in 'C:\\Users\\haima\\anaconda3\\Lib\\site-packages\\werkzeug\\serving.py', reloading
+[2025-08-02 18:28:13,045] 224 werkzeug - INFO -  * Detected change in 'C:\\Users\\haima\\anaconda3\\Lib\\http\\server.py', reloading
+[2025-08-02 18:28:13,048] 224 werkzeug - INFO -  * Detected change in 'C:\\Users\\haima\\anaconda3\\Lib\\socketserver.py', reloading
+[2025-08-02 18:28:13,051] 224 werkzeug - INFO -  * Detected change in 'C:\\Users\\haima\\anaconda3\\Lib\\threading.py', reloading

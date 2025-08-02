@@ -1,0 +1,14 @@
+[2025-08-02 17:30:23,891] 97 werkzeug - WARNING -  * Debugger is active!
+[2025-08-02 17:30:23,995] 97 werkzeug - INFO -  * Debugger PIN: 211-603-832
+[2025-08-02 17:30:39,713] 97 werkzeug - INFO - 127.0.0.1 - - [02/Aug/2025 17:30:39] "GET / HTTP/1.1" 200 -
+[2025-08-02 17:30:39,846] 97 werkzeug - INFO - 127.0.0.1 - - [02/Aug/2025 17:30:39] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+[2025-08-02 17:30:46,393] 69 root - INFO - Entered initiated_data_ingestion method of data_integration class
+[2025-08-02 17:30:46,393] 46 root - INFO - Exporting data from mongodb
+[2025-08-02 17:31:21,544] 97 werkzeug - INFO - 127.0.0.1 - - [02/Aug/2025 17:31:21] "[35m[1mGET /train HTTP/1.1[0m" 500 -
+[2025-08-02 17:31:21,867] 69 root - INFO - Entered initiated_data_ingestion method of data_integration class
+[2025-08-02 17:31:23,398] 46 root - INFO - Exporting data from mongodb
+[2025-08-02 17:31:57,939] 97 werkzeug - INFO - 127.0.0.1 - - [02/Aug/2025 17:31:57] "[35m[1mGET /train HTTP/1.1[0m" 500 -
+[2025-08-02 17:31:58,477] 97 werkzeug - INFO - 127.0.0.1 - - [02/Aug/2025 17:31:58] "[36mGET /train?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+[2025-08-02 17:31:58,504] 97 werkzeug - INFO - 127.0.0.1 - - [02/Aug/2025 17:31:58] "[36mGET /train?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+[2025-08-02 17:31:59,026] 97 werkzeug - INFO - 127.0.0.1 - - [02/Aug/2025 17:31:59] "GET /train?__debugger__=yes&cmd=resource&f=console.png&s=LPEZUpXnMx4Ad39LcuSD HTTP/1.1" 200 -
+[2025-08-02 17:40:47,108] 97 werkzeug - INFO -  * Detected change in 'D:\\DS_Himanshu_Files\\DATA SCIENCE\\Jupyter_Notebook\\SENSOR PROJECT\\app.py', reloading

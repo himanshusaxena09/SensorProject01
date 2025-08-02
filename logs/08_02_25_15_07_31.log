@@ -1,0 +1,17 @@
+[2025-08-02 15:07:34,239] 97 werkzeug - WARNING -  * Debugger is active!
+[2025-08-02 15:07:34,246] 97 werkzeug - INFO -  * Debugger PIN: 211-603-832
+[2025-08-02 15:07:57,705] 69 root - INFO - Entered initiated_data_ingestion method of data_integration class
+[2025-08-02 15:07:57,705] 46 root - INFO - Exporting data from mongodb
+[2025-08-02 15:08:41,729] 97 werkzeug - INFO - 127.0.0.1 - - [02/Aug/2025 15:08:41] "[35m[1mGET /train HTTP/1.1[0m" 500 -
+[2025-08-02 15:08:42,251] 97 werkzeug - INFO - 127.0.0.1 - - [02/Aug/2025 15:08:42] "[36mGET /train?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+[2025-08-02 15:08:42,253] 97 werkzeug - INFO - 127.0.0.1 - - [02/Aug/2025 15:08:42] "[36mGET /train?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+[2025-08-02 15:08:43,729] 97 werkzeug - INFO - 127.0.0.1 - - [02/Aug/2025 15:08:43] "GET /train?__debugger__=yes&cmd=resource&f=console.png&s=SfNvGQfMv2AxZlkuWniS HTTP/1.1" 200 -
+[2025-08-02 15:08:44,063] 97 werkzeug - INFO - 127.0.0.1 - - [02/Aug/2025 15:08:44] "[36mGET /train?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+[2025-08-02 15:09:02,975] 97 werkzeug - INFO - 127.0.0.1 - - [02/Aug/2025 15:09:02] "GET / HTTP/1.1" 200 -
+[2025-08-02 15:09:18,479] 69 root - INFO - Entered initiated_data_ingestion method of data_integration class
+[2025-08-02 15:09:18,481] 46 root - INFO - Exporting data from mongodb
+[2025-08-02 15:09:53,548] 97 werkzeug - INFO - 127.0.0.1 - - [02/Aug/2025 15:09:53] "[35m[1mGET /train HTTP/1.1[0m" 500 -
+[2025-08-02 15:09:53,911] 97 werkzeug - INFO - 127.0.0.1 - - [02/Aug/2025 15:09:53] "[36mGET /train?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+[2025-08-02 15:09:53,912] 97 werkzeug - INFO - 127.0.0.1 - - [02/Aug/2025 15:09:53] "[36mGET /train?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+[2025-08-02 15:09:54,178] 97 werkzeug - INFO - 127.0.0.1 - - [02/Aug/2025 15:09:54] "[36mGET /train?__debugger__=yes&cmd=resource&f=console.png&s=SfNvGQfMv2AxZlkuWniS HTTP/1.1[0m" 304 -
+[2025-08-02 16:16:46,453] 97 werkzeug - INFO -  * Detected change in 'D:\\DS_Himanshu_Files\\DATA SCIENCE\\Jupyter_Notebook\\SENSOR PROJECT\\src\\utils\\main_utils.py', reloading

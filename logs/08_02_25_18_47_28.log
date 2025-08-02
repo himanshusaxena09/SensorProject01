@@ -1,0 +1,31 @@
+[2025-08-02 18:47:32,628] 224 werkzeug - WARNING -  * Debugger is active!
+[2025-08-02 18:47:32,638] 224 werkzeug - INFO -  * Debugger PIN: 129-964-374
+[2025-08-02 18:47:32,674] 20 root - INFO - >>> /train endpoint called
+[2025-08-02 18:47:32,674] 66 root - INFO - Entered initiate_data_ingestion method of DataIngestion class
+[2025-08-02 18:47:32,674] 45 root - INFO - Exporting data from MongoDB
+[2025-08-02 18:47:39,409] 55 root - INFO - Saving exported data to feature store path: artifacts
+[2025-08-02 18:47:39,528] 70 root - INFO - Data fetched and saved from MongoDB
+[2025-08-02 18:47:39,528] 72 root - INFO - Exiting initiate_data_ingestion method of DataIngestion class
+[2025-08-02 18:47:39,530] 67 root - INFO - Entered initiate data transformation method of data transfomration class
+[2025-08-02 18:47:39,658] 49 root - INFO - Entered the save_object method of MainUtils class
+[2025-08-02 18:47:39,659] 57 root - INFO - Exited the save_object method of MainUtils class
+[2025-08-02 18:47:39,660] 190 root - INFO - Splitting training and testing input and target feature
+[2025-08-02 18:47:39,660] 204 root - INFO - Extracting model config file path
+[2025-08-02 18:47:39,661] 216 root - INFO - Extracting model config file path
+[2025-08-02 18:48:48,791] 261 root - INFO - Best found model on both training and testing dataset
+[2025-08-02 18:48:48,791] 268 root - INFO - Saving model at path: artifacts\model.pkl
+[2025-08-02 18:48:48,792] 49 root - INFO - Entered the save_object method of MainUtils class
+[2025-08-02 18:48:50,329] 57 root - INFO - Exited the save_object method of MainUtils class
+[2025-08-02 18:48:50,337] 26 root - INFO - >>> Training completed successfully.
+[2025-08-02 18:48:50,338] 224 werkzeug - INFO - 127.0.0.1 - - [02/Aug/2025 18:48:50] "GET /train HTTP/1.1" 200 -
+[2025-08-02 18:49:13,772] 224 werkzeug - INFO - 127.0.0.1 - - [02/Aug/2025 18:49:13] "GET /predict HTTP/1.1" 200 -
+[2025-08-02 18:49:13,801] 224 werkzeug - INFO - 127.0.0.1 - - [02/Aug/2025 18:49:13] "[33mGET /styles.css HTTP/1.1[0m" 404 -
+[2025-08-02 18:50:04,823] 224 werkzeug - INFO - 127.0.0.1 - - [02/Aug/2025 18:50:04] "GET /predict HTTP/1.1" 200 -
+[2025-08-02 18:50:05,137] 224 werkzeug - INFO - 127.0.0.1 - - [02/Aug/2025 18:50:05] "[33mGET /styles.css HTTP/1.1[0m" 404 -
+[2025-08-02 18:54:02,405] 224 werkzeug - INFO - 127.0.0.1 - - [02/Aug/2025 18:54:02] "GET /predict HTTP/1.1" 200 -
+[2025-08-02 18:54:02,449] 224 werkzeug - INFO - 127.0.0.1 - - [02/Aug/2025 18:54:02] "[33mGET /static/styles.css HTTP/1.1[0m" 404 -
+[2025-08-02 18:54:06,230] 224 werkzeug - INFO - 127.0.0.1 - - [02/Aug/2025 18:54:06] "GET /predict HTTP/1.1" 200 -
+[2025-08-02 18:54:06,539] 224 werkzeug - INFO - 127.0.0.1 - - [02/Aug/2025 18:54:06] "[33mGET /static/styles.css HTTP/1.1[0m" 404 -
+[2025-08-02 18:54:15,466] 80 root - INFO - predictions completed
+[2025-08-02 18:54:15,466] 42 root - INFO - >>> Prediction completed. Sending prediction file.
+[2025-08-02 18:54:15,653] 224 werkzeug - INFO - 127.0.0.1 - - [02/Aug/2025 18:54:15] "POST /predict HTTP/1.1" 200 -
